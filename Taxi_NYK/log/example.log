@@ -1,0 +1,62 @@
+[2022-04-04 10:08:00,485 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:08:00,494 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Repository
+[2022-04-04 10:08:28,702 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:09:00,804 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:09:00,814 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Repository
+[2022-04-04 10:14:45,245 Tp_taxi_jaune.py->start_process():13]INFO: Started reading my Object
+[2022-04-04 10:14:45,255 Tp_taxi_jaune.py->start_process():15]INFO: Started reading my Repository
+[2022-04-04 10:14:57,079 Tp_taxi_jaune.py->start_process():13]INFO: Started reading my Object
+[2022-04-04 10:14:57,092 Tp_taxi_jaune.py->start_process():30]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 10:22:36,717 Tp_taxi_jaune.py->start_process():13]INFO: Started reading my Object
+[2022-04-04 10:22:36,726 Tp_taxi_jaune.py->start_process():32]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 10:22:59,969 Tp_taxi_jaune.py->start_process():13]INFO: Started reading my Object
+[2022-04-04 10:22:59,978 Tp_taxi_jaune.py->start_process():15]INFO: Started reading my Repository
+[2022-04-04 10:22:59,981 Tp_taxi_jaune.py->start_process():29]INFO: I insert 2 HUB, 2 Satellite, 1 Link
+[2022-04-04 10:29:11,951 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:29:11,961 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Repository
+[2022-04-04 10:29:11,964 Tp_taxi_jaune.py->start_process():28]INFO: I insert 2 HUB, 2 Satellite, 1 Link
+[2022-04-04 10:40:48,690 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:40:48,699 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Repository
+[2022-04-04 10:40:48,703 Tp_taxi_jaune.py->start_process():31]ERROR: ERROR:error() missing 1 required positional argument: 'msg'
+[2022-04-04 10:45:16,492 Tp_taxi_jaune.py->start_process():12]INFO: Started reading my Object
+[2022-04-04 10:45:16,502 Tp_taxi_jaune.py->start_process():31]ERROR: ERROR:name 'logger' is not defined
+[2022-04-04 10:54:38,091 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Object
+[2022-04-04 10:54:38,100 Tp_taxi_jaune.py->start_process():33]ERROR: ERROR:name 'logger' is not defined
+[2022-04-04 10:57:38,953 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Object
+[2022-04-04 10:57:38,962 Tp_taxi_jaune.py->start_process():33]ERROR: ERROR:name 'inspect' is not defined
+[2022-04-04 10:58:44,460 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Object
+[2022-04-04 10:58:44,518 Tp_taxi_jaune.py->start_process():16]INFO: Started reading my Repository
+[2022-04-04 10:58:44,522 Tp_taxi_jaune.py->start_process():33]ERROR: ERROR:name 'logger' is not defined
+[2022-04-04 10:59:04,151 Tp_taxi_jaune.py->start_process():14]INFO: Started reading my Object
+[2022-04-04 10:59:04,210 Tp_taxi_jaune.py->start_process():16]INFO: Started reading my Repository
+[2022-04-04 10:59:04,217 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 10:59:04,218 Tp_taxi_jaune.py->start_process():30]INFO: I insert 2 HUB, 2 Satellite, 1 Link
+[2022-04-04 11:02:39,564 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 11:02:39,569 logger.py->error():24]ERROR: ERROR:Logger.debug() takes 2 positional arguments but 5 were given
+[2022-04-04 11:03:38,345 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 11:03:38,348 logger.py->error():24]ERROR: ERROR:local variable 'message' referenced before assignment
+[2022-04-04 11:03:57,042 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 11:04:44,020 logger.py->error():24]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 11:05:37,170 logger.py->error():24]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 11:06:26,056 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 11:24:20,010 logger.py->error():24]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 11:24:31,813 logger.py->error():24]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 11:25:14,902 logger.py->error():24]ERROR: ERROR:too many values to unpack (expected 2)
+[2022-04-04 11:26:05,406 logger.py->error():24]ERROR: its not a repository
+[2022-04-04 11:26:35,391 logger.py->error():24]ERROR: ERROR:name 're' is not defined
+[2022-04-04 11:27:23,599 logger.py->error():24]ERROR: ERROR:[WinError 2] Le fichier spécifié est introuvable: 'yellow_tripdata_2020-01.csv'
+[2022-04-04 11:28:27,250 logger.py->error():24]ERROR: ERROR:[WinError 2] Le fichier spécifié est introuvable: 'yellow_tripdata_2020-01.csv'
+[2022-04-04 11:29:37,937 logger.py->error():24]ERROR: ERROR:[WinError 2] Le fichier spécifié est introuvable: 'yellow_tripdata_2020-01.csv'
+[2022-04-04 11:30:40,283 logger.py->error():24]ERROR: ERROR:[WinError 2] Le fichier spécifié est introuvable: 'yellow_tripdata_2020-02.csv'
+[2022-04-04 11:35:35,120 logger.py->debug():18]DEBUG: Started reading my Object
+[2022-04-04 11:35:35,134 logger.py->debug():18]DEBUG: I recupered the object
+[2022-04-04 11:35:35,136 logger.py->debug():18]DEBUG: Started reading my Repository
+[2022-04-04 11:35:35,142 logger.py->debug():18]DEBUG: here
+[2022-04-04 11:36:01,685 logger.py->debug():18]DEBUG: Started reading my Object
+[2022-04-04 11:36:01,707 logger.py->debug():18]DEBUG: I recupered the object
+[2022-04-04 11:36:01,710 logger.py->debug():18]DEBUG: Started reading my Repository
+[2022-04-04 11:36:01,719 logger.py->debug():18]DEBUG: ('I insert %d HUB, %d Satellite, %d Link', 2, 2, 1)
+[2022-04-04 11:38:10,873 logger.py->debug():18]DEBUG: Started reading my Object
+[2022-04-04 11:38:10,893 logger.py->debug():18]DEBUG: I recupered the object
+[2022-04-04 11:38:10,896 logger.py->debug():18]DEBUG: Started reading my Repository
+[2022-04-04 11:38:10,904 logger.py->debug():18]DEBUG: I insert 2 HUB, 2 Satellite, 1 Link

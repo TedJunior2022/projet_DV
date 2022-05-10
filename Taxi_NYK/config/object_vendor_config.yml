@@ -1,0 +1,14 @@
+DevEntities:
+ - !DevEntity
+    name: vendor
+    business_key : 
+       !include config/vendor_bk.yml    
+    fields: 
+       VendorID:
+            type: int4
+            taille: 10
+       Vendorname:
+            type: Char
+            taille: 50
+
+Links:

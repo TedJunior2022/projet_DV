@@ -1,0 +1,1122 @@
+2022-05-08 22:14:40,054:lambd,DEBUG:Started reading my Repository
+2022-05-08 22:14:40,054:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-08 22:14:40,801:lambd,DEBUG:I created the Database yellow_payment
+2022-05-08 22:14:40,898:lambd,DEBUG:I created the Stagingpayment
+2022-05-08 22:14:41,997:lambd,ERROR:ERROR:ERREUR:  n'a pas pu ouvrir le fichier « C:\Users\TJSAMBADZUGUIA\Desktop\ghita\workspace\yellow_payment_info.csv » pour une lecture : Permission denied
+HINT:  COPY TO indique au serveur PostgreSQL de lire un fichier. Vous pourriez vouloir utiliser la fonctionnalité \copy de psql pour lire en local.
+
+2022-05-08 22:14:41,997:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  n'a pas pu ouvrir le fichier « C:\Users\TJSAMBADZUGUIA\Desktop\ghita\workspace\yellow_payment_info.csv » pour une lecture : Permission denied
+HINT:  COPY TO indique au serveur PostgreSQL de lire un fichier. Vous pourriez vouloir utiliser la fonctionnalité \copy de psql pour lire en local.
+
+2022-05-08 22:17:30,980:lambd,DEBUG:Started reading my Repository
+2022-05-08 22:17:30,980:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-08 22:17:31,076:lambd,DEBUG:Started reading my Objects
+2022-05-08 22:17:31,076:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-08 22:17:31,090:lambd,DEBUG:I created the HUB_Payment
+2022-05-08 22:17:31,108:lambd,DEBUG:I created the SAT_Payment
+2022-05-08 22:17:31,167:lambd,DEBUG:I created the Stagingrate
+2022-05-08 22:17:31,175:lambd,DEBUG:Started reading my Objects
+2022-05-08 22:17:31,177:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-08 22:17:31,183:lambd,DEBUG:I created the HUB_Rate
+2022-05-08 22:17:31,197:lambd,DEBUG:I created the SAT_Rate
+2022-05-08 22:17:31,963:lambd,DEBUG:I created the Stagingtripdata
+2022-05-08 22:17:32,788:lambd,DEBUG:Started reading my Objects
+2022-05-08 22:17:32,789:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-08 22:17:34,081:lambd,ERROR:ERROR:ERREUR:  la colonne « ratecodename » n'existe pas
+LINE 1: ...cat(BTRIM(LOWER(RateCodeID::text)))), BTRIM(LOWER(RateCodeNa...
+                                                             ^
+HINT:  Il existe une colonne nommée « ratecodename » pour la table « sat_rate » mais elle ne peut pas être référencée dans cette partie de la requête.
+
+2022-05-08 22:17:34,081:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la colonne « ratecodename » n'existe pas
+LINE 1: ...cat(BTRIM(LOWER(RateCodeID::text)))), BTRIM(LOWER(RateCodeNa...
+                                                             ^
+HINT:  Il existe une colonne nommée « ratecodename » pour la table « sat_rate » mais elle ne peut pas être référencée dans cette partie de la requête.
+
+2022-05-09 10:38:48,793:lambd,DEBUG:Started reading my Repository
+2022-05-09 10:39:10,939:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 10:55:09,869:lambd,DEBUG:Started reading my Objects
+2022-05-09 10:55:15,695:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 10:59:40,604:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 11:03:38,537:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:03:38,537:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:03:38,643:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:03:38,644:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:03:38,646:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 11:03:38,699:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:03:38,700:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:03:38,702:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:03:39,611:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:03:39,611:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:03:39,613:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:03:39,682:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 11:03:39,689:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:03:39,689:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:03:39,698:lambd,DEBUG:I created the HUB_Vendor
+2022-05-09 11:03:39,705:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:03:39,878:lambd,DEBUG:I created the Stagingzone
+2022-05-09 11:03:39,885:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:03:39,886:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:03:39,888:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:06:46,375:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:06:46,376:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:06:47,165:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 11:06:47,257:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 11:06:47,265:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:06:47,265:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:06:47,275:lambd,DEBUG:I created the HUB_Payment
+2022-05-09 11:06:47,282:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 11:06:47,336:lambd,DEBUG:I created the Stagingrate
+2022-05-09 11:06:47,341:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:06:47,342:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:06:47,349:lambd,DEBUG:I created the HUB_Rate
+2022-05-09 11:06:47,355:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:06:48,143:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 11:06:49,024:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:06:49,024:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:06:49,027:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:06:49,082:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 11:06:49,088:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:06:49,089:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:06:49,094:lambd,DEBUG:I created the HUB_Vendor
+2022-05-09 11:06:49,101:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:06:49,154:lambd,DEBUG:I created the Stagingzone
+2022-05-09 11:06:49,161:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:06:49,161:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:06:49,163:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:19:13,259:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:19:13,259:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:19:13,495:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:19:13,496:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:19:13,498:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 11:19:13,553:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:19:13,554:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:19:13,555:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:19:14,604:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:19:14,604:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:19:14,606:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:19:14,665:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:19:14,665:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:19:14,667:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:19:14,719:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:19:14,719:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:19:14,721:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:23:01,650:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:23:01,651:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:23:01,757:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:23:01,758:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:23:01,759:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 11:23:01,811:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:23:01,811:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:23:01,814:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:23:02,783:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:23:02,784:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:23:02,786:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 11:23:02,838:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:23:02,838:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:23:02,840:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:23:02,892:lambd,DEBUG:Started reading my Objects
+2022-05-09 11:23:02,893:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 11:23:02,896:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 11:24:53,789:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:24:53,789:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:24:53,904:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-09 11:24:53,905:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-09 11:25:42,634:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:25:42,635:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:25:42,739:lambd,ERROR:ERROR:can only concatenate str (not "Hub") to str
+2022-05-09 11:25:42,739:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "Hub") to str
+2022-05-09 11:26:14,383:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:26:14,383:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:26:14,491:lambd,ERROR:ERROR:list index out of range
+2022-05-09 11:26:14,492:Tp_taxi_jaune,ERROR:ERROR:list index out of range
+2022-05-09 11:34:49,781:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:34:49,781:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:34:50,477:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 11:34:50,667:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 11:34:50,725:lambd,DEBUG:I created the Stagingrate
+2022-05-09 11:34:51,518:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 11:34:52,412:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 11:34:52,470:lambd,DEBUG:I created the Stagingzone
+2022-05-09 11:36:11,627:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:36:11,627:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:39:56,138:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:39:56,139:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 11:42:44,834:lambd,DEBUG:Started reading my Repository
+2022-05-09 11:42:44,835:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:41:40,926:lambd,DEBUG:Started reading my Repository
+2022-05-09 18:41:40,926:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:41:41,024:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:41:41,024:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:41:41,026:lambd,ERROR:ERROR:ERREUR:  la colonne « paymenthashedkey » est de type uuid mais l'expression est de type text
+LINE 1: INSERT INTO raw_dv.HUB_Payment SELECT MD5(concat(BTRIM(LOWER...
+                                              ^
+HINT:  Vous devez réécrire l'expression ou lui appliquer une transformation de type.
+
+2022-05-09 18:41:41,027:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la colonne « paymenthashedkey » est de type uuid mais l'expression est de type text
+LINE 1: INSERT INTO raw_dv.HUB_Payment SELECT MD5(concat(BTRIM(LOWER...
+                                              ^
+HINT:  Vous devez réécrire l'expression ou lui appliquer une transformation de type.
+
+2022-05-09 18:45:00,907:lambd,DEBUG:Started reading my Repository
+2022-05-09 18:45:00,908:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:45:01,007:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:45:01,008:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:45:01,009:lambd,ERROR:ERROR:ERREUR:  la colonne « paymenthashedkey » est de type uuid mais l'expression est de type text
+LINE 1: INSERT INTO raw_dv.HUB_Payment SELECT MD5(concat(BTRIM(LOWER...
+                                              ^
+HINT:  Vous devez réécrire l'expression ou lui appliquer une transformation de type.
+
+2022-05-09 18:45:01,010:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la colonne « paymenthashedkey » est de type uuid mais l'expression est de type text
+LINE 1: INSERT INTO raw_dv.HUB_Payment SELECT MD5(concat(BTRIM(LOWER...
+                                              ^
+HINT:  Vous devez réécrire l'expression ou lui appliquer une transformation de type.
+
+2022-05-09 18:51:11,753:lambd,DEBUG:Started reading my Repository
+2022-05-09 18:51:11,753:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:51:11,852:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:51:11,853:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:51:11,857:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 18:51:11,911:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:51:11,911:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:51:11,914:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:51:12,814:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:51:12,814:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:51:12,817:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:51:12,979:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:51:12,980:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:51:12,982:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 18:51:13,035:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:51:13,035:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:51:13,039:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 18:54:11,572:lambd,DEBUG:Started reading my Repository
+2022-05-09 18:54:11,572:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:54:11,669:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:54:11,669:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:54:11,673:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 18:54:11,841:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:54:11,841:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:54:11,845:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:54:12,782:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:54:12,782:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:54:12,785:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:54:12,837:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:54:12,838:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:54:12,841:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 18:54:12,893:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:54:12,893:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:54:12,896:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 18:59:36,622:lambd,DEBUG:Started reading my Repository
+2022-05-09 18:59:36,623:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 18:59:37,431:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 18:59:37,514:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 18:59:37,522:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:59:37,523:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:59:37,534:lambd,DEBUG:I created the HUB_Payment
+2022-05-09 18:59:37,544:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 18:59:37,600:lambd,DEBUG:I created the Stagingrate
+2022-05-09 18:59:37,607:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:59:37,607:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:59:37,612:lambd,DEBUG:I created the HUB_Rate
+2022-05-09 18:59:37,620:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:59:38,323:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 18:59:39,167:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:59:39,167:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:59:39,170:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 18:59:39,227:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 18:59:39,235:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:59:39,235:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:59:39,243:lambd,DEBUG:I created the HUB_Vendor
+2022-05-09 18:59:39,251:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 18:59:39,311:lambd,DEBUG:I created the Stagingzone
+2022-05-09 18:59:39,318:lambd,DEBUG:Started reading my Objects
+2022-05-09 18:59:39,319:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 18:59:39,323:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 19:01:16,242:lambd,DEBUG:Started reading my Repository
+2022-05-09 19:01:16,243:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 19:01:16,342:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:01:16,342:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:01:16,345:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 19:01:16,400:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:01:16,400:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:01:16,404:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 19:01:17,402:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:01:17,403:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:01:17,407:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 19:01:17,460:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:01:17,461:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:01:17,465:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 19:01:17,517:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:01:17,518:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:01:17,521:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 19:06:01,257:lambd,DEBUG:Started reading my Repository
+2022-05-09 19:06:01,258:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 19:06:01,348:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:06:01,349:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:06:01,354:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 19:06:01,406:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:06:01,406:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:06:01,409:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 19:06:02,313:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:06:02,313:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:06:02,317:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 19:06:02,373:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:06:02,374:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:06:02,377:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 19:06:02,429:lambd,DEBUG:Started reading my Objects
+2022-05-09 19:06:02,430:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 19:06:02,432:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:21:24,431:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:21:24,432:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:21:25,163:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 22:21:25,242:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 22:21:25,249:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:21:25,250:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:21:25,262:lambd,DEBUG:I created the HUB_Payment
+2022-05-09 22:21:25,269:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 22:21:25,336:lambd,DEBUG:I created the Stagingrate
+2022-05-09 22:21:25,345:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:21:25,345:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:21:25,353:lambd,DEBUG:I created the HUB_Rate
+2022-05-09 22:21:25,364:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:21:26,073:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 22:21:26,911:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:21:26,912:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:21:26,916:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:21:26,982:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 22:21:26,988:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:21:26,989:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:21:26,997:lambd,DEBUG:I created the HUB_Vendor
+2022-05-09 22:21:27,003:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:21:27,061:lambd,DEBUG:I created the Stagingzone
+2022-05-09 22:21:27,068:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:21:27,069:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:21:27,072:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:27:43,924:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:27:43,924:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:27:44,015:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-09 22:27:44,016:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-09 22:28:19,213:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:28:19,213:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:28:19,309:lambd,ERROR:ERROR:list index out of range
+2022-05-09 22:28:19,309:Tp_taxi_jaune,ERROR:ERROR:list index out of range
+2022-05-09 22:28:55,667:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:28:55,667:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:28:55,762:lambd,ERROR:ERROR:can only concatenate str (not "int") to str
+2022-05-09 22:28:55,763:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "int") to str
+2022-05-09 22:29:12,938:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:29:12,939:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:29:13,041:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:29:13,041:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:29:13,044:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 22:29:13,098:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:29:13,098:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:29:13,101:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:29:13,986:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:29:13,986:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:29:13,990:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:29:14,041:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:29:14,041:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:29:14,044:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:29:14,098:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:29:14,099:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:29:14,102:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:33:31,408:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:33:31,409:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:33:31,503:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:33:31,504:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:33:31,506:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 22:33:31,559:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:33:31,560:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:33:31,562:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:33:32,476:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:33:32,477:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 22:33:32,489:lambd,ERROR:ERROR:ERREUR:  la colonne « paymentid » n'existe pas
+LINE 1: ... ',' ,BTRIM(LOWER(RateCodeID)) , ',' ,BTRIM(LOWER(PaymentID)...
+                                                             ^
+
+2022-05-09 22:33:32,490:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la colonne « paymentid » n'existe pas
+LINE 1: ... ',' ,BTRIM(LOWER(RateCodeID)) , ',' ,BTRIM(LOWER(PaymentID)...
+                                                             ^
+
+2022-05-09 22:35:30,228:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:35:30,228:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:35:30,475:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:35:30,476:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:35:30,478:lambd,DEBUG:I created the SAT_Payment
+2022-05-09 22:35:30,533:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:35:30,534:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:35:30,538:lambd,DEBUG:I created the SAT_Rate
+2022-05-09 22:35:31,472:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:35:31,473:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 22:35:31,546:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:35:31,547:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:35:31,550:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:35:31,606:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:35:31,607:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:35:31,610:lambd,DEBUG:I created the SAT_Vendor
+2022-05-09 22:52:55,891:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:52:55,891:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:52:55,988:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:52:55,989:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:52:55,992:lambd,DEBUG:I created the SAT_payment
+2022-05-09 22:52:56,044:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:52:56,044:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:52:56,047:lambd,DEBUG:I created the SAT_rate
+2022-05-09 22:52:56,964:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:52:56,964:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 22:52:57,024:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:52:57,025:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:52:57,027:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 22:52:57,078:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:52:57,079:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:52:57,082:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 22:54:14,273:lambd,DEBUG:Started reading my Repository
+2022-05-09 22:54:14,273:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 22:54:15,035:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 22:54:15,112:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 22:54:15,119:lambd,DEBUG:Started reading my Objects
+2022-05-09 22:54:15,120:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 22:54:15,132:lambd,DEBUG:I created the HUB_payment
+2022-05-09 22:54:15,137:lambd,ERROR:ERROR:ERREUR:  le modificateur de type n'est pas autorisé pour le type « int4 »
+LINE 1: ...AT_payment ( paymentHashedKey CHAR(100),PaymentID int4(10), ...
+                                                             ^
+
+2022-05-09 22:54:15,138:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  le modificateur de type n'est pas autorisé pour le type « int4 »
+LINE 1: ...AT_payment ( paymentHashedKey CHAR(100),PaymentID int4(10), ...
+                                                             ^
+
+2022-05-09 23:03:20,876:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:03:20,876:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:03:21,577:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 23:03:21,663:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 23:03:21,670:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:03:21,671:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:03:21,683:lambd,DEBUG:I created the HUB_payment
+2022-05-09 23:03:21,692:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:03:21,751:lambd,DEBUG:I created the Stagingrate
+2022-05-09 23:03:21,757:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:03:21,758:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:03:21,765:lambd,DEBUG:I created the HUB_rate
+2022-05-09 23:03:21,772:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:03:22,492:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 23:03:23,355:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:03:23,356:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:03:23,431:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 23:03:23,438:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:03:23,438:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:03:23,445:lambd,DEBUG:I created the HUB_vendor
+2022-05-09 23:03:23,453:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:03:23,505:lambd,DEBUG:I created the Stagingzone
+2022-05-09 23:03:23,513:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:03:23,513:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:03:23,517:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:05:07,442:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:05:07,443:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:05:07,538:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:05:07,538:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:05:07,543:lambd,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:05:07,543:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:10:04,364:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:10:04,365:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:10:05,105:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 23:10:05,189:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 23:10:05,195:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:10:05,196:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:10:05,209:lambd,DEBUG:I created the HUB_payment
+2022-05-09 23:10:05,222:lambd,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:10:05,222:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:14:24,104:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:14:24,104:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:14:24,202:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:14:24,202:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:14:24,208:lambd,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:14:24,209:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...M(COALESCE(Payment_type::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:14:46,430:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:14:46,431:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:14:46,527:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:14:46,528:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:14:46,530:lambd,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...SCE(paymentid::text)))), CURRENT_DATE, 'CSV' FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:14:46,531:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...SCE(paymentid::text)))), CURRENT_DATE, 'CSV' FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:21:59,747:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:21:59,747:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:22:00,496:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 23:22:00,577:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 23:22:00,585:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:22:00,586:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:22:00,595:lambd,DEBUG:I created the HUB_payment
+2022-05-09 23:22:00,599:lambd,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...SCE(paymentid::text)))), CURRENT_DATE, 'CSV' FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:22:00,599:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  les références entre bases de données ne sont pas implémentées : « staging.stg_yellow_payment_info.csv »
+LINE 1: ...SCE(paymentid::text)))), CURRENT_DATE, 'CSV' FROM staging.ST...
+                                                             ^
+
+2022-05-09 23:30:03,687:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:30:03,688:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:30:03,786:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:30:03,787:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:30:03,800:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:30:03,857:lambd,DEBUG:I created the Stagingrate
+2022-05-09 23:30:03,864:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:30:03,864:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:30:03,871:lambd,DEBUG:I created the HUB_rate
+2022-05-09 23:30:03,881:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:30:04,668:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 23:30:05,564:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:30:05,564:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:30:05,629:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 23:30:05,636:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:30:05,637:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:30:05,643:lambd,DEBUG:I created the HUB_vendor
+2022-05-09 23:30:05,651:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:30:05,706:lambd,DEBUG:I created the Stagingzone
+2022-05-09 23:30:05,713:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:30:05,714:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:30:05,717:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:32:33,405:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:32:33,405:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:32:34,149:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 23:32:34,225:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 23:32:34,231:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:32:34,232:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:32:34,242:lambd,DEBUG:I created the HUB_payment
+2022-05-09 23:32:34,257:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:32:34,312:lambd,DEBUG:I created the Stagingrate
+2022-05-09 23:32:34,318:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:32:34,319:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:32:34,325:lambd,DEBUG:I created the HUB_rate
+2022-05-09 23:32:34,338:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:32:35,040:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 23:32:35,885:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:32:35,886:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:32:35,954:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 23:32:35,960:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:32:35,961:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:32:35,968:lambd,DEBUG:I created the HUB_vendor
+2022-05-09 23:32:35,981:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:32:36,039:lambd,DEBUG:I created the Stagingzone
+2022-05-09 23:32:36,046:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:32:36,046:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:32:36,053:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:48:07,447:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:48:07,447:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:48:07,546:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:48:07,546:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:48:07,553:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:48:07,607:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:48:07,607:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:48:07,614:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:48:08,589:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:48:08,589:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:48:08,643:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:48:08,643:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:48:08,650:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:48:08,702:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:48:08,703:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:48:08,708:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:51:43,447:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:51:43,448:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:51:44,205:lambd,DEBUG:I created the Database yellow_payment
+2022-05-09 23:51:44,280:lambd,DEBUG:I created the Stagingpayment
+2022-05-09 23:51:44,288:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:51:44,288:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:51:44,298:lambd,DEBUG:I created the HUB_payment
+2022-05-09 23:51:44,311:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:51:44,365:lambd,DEBUG:I created the Stagingrate
+2022-05-09 23:51:44,371:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:51:44,372:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:51:44,378:lambd,DEBUG:I created the HUB_rate
+2022-05-09 23:51:44,389:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:51:45,093:lambd,DEBUG:I created the Stagingtripdata
+2022-05-09 23:51:45,944:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:51:45,945:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:51:45,948:lambd,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ... load_date TIMESTAMP, source VARCHAR(100),ZoneUUID, VendorUU...
+                                                             ^
+
+2022-05-09 23:51:45,948:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ... load_date TIMESTAMP, source VARCHAR(100),ZoneUUID, VendorUU...
+                                                             ^
+
+2022-05-09 23:56:32,154:lambd,DEBUG:Started reading my Repository
+2022-05-09 23:56:32,155:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-09 23:56:32,246:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:56:32,247:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:56:32,255:lambd,DEBUG:I created the SAT_payment
+2022-05-09 23:56:32,306:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:56:32,307:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:56:32,313:lambd,DEBUG:I created the SAT_rate
+2022-05-09 23:56:33,152:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:56:33,153:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-09 23:56:33,229:lambd,DEBUG:I created the Stagingvendor
+2022-05-09 23:56:33,236:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:56:33,237:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:56:33,243:lambd,DEBUG:I created the HUB_vendor
+2022-05-09 23:56:33,259:lambd,DEBUG:I created the SAT_vendor
+2022-05-09 23:56:33,441:lambd,DEBUG:I created the Stagingzone
+2022-05-09 23:56:33,451:lambd,DEBUG:Started reading my Objects
+2022-05-09 23:56:33,452:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-09 23:56:33,462:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 00:04:39,565:lambd,DEBUG:Started reading my Repository
+2022-05-10 00:04:39,566:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 00:04:39,669:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:04:39,669:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:04:39,676:lambd,DEBUG:I created the SAT_payment
+2022-05-10 00:04:39,736:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:04:39,737:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:04:39,744:lambd,DEBUG:I created the SAT_rate
+2022-05-10 00:04:40,716:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:04:40,717:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 00:04:40,718:lambd,ERROR:ERROR:list indices must be integers or slices, not str
+2022-05-10 00:04:40,718:Tp_taxi_jaune,ERROR:ERROR:list indices must be integers or slices, not str
+2022-05-10 00:07:34,631:lambd,DEBUG:Started reading my Repository
+2022-05-10 00:07:34,632:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 00:07:34,729:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:07:34,729:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:07:34,733:lambd,DEBUG:I created the SAT_payment
+2022-05-10 00:07:34,790:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:07:34,791:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:07:34,798:lambd,DEBUG:I created the SAT_rate
+2022-05-10 00:07:35,750:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:07:35,752:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 00:07:35,753:lambd,ERROR:ERROR:list indices must be integers or slices, not str
+2022-05-10 00:07:35,754:Tp_taxi_jaune,ERROR:ERROR:list indices must be integers or slices, not str
+2022-05-10 00:10:08,075:lambd,DEBUG:Started reading my Repository
+2022-05-10 00:10:08,076:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 00:10:08,170:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:10:08,170:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:10:08,174:lambd,DEBUG:I created the SAT_payment
+2022-05-10 00:10:08,225:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:10:08,226:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:10:08,231:lambd,DEBUG:I created the SAT_rate
+2022-05-10 00:10:09,171:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:10:09,172:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 00:10:09,173:lambd,ERROR:ERROR:string indices must be integers
+2022-05-10 00:10:09,173:Tp_taxi_jaune,ERROR:ERROR:string indices must be integers
+2022-05-10 00:27:50,103:lambd,DEBUG:Started reading my Repository
+2022-05-10 00:27:50,104:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 00:27:50,199:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:27:50,200:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:27:50,203:lambd,DEBUG:I created the SAT_payment
+2022-05-10 00:27:50,255:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:27:50,255:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 00:27:50,259:lambd,DEBUG:I created the SAT_rate
+2022-05-10 00:27:51,167:lambd,DEBUG:Started reading my Objects
+2022-05-10 00:27:51,167:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 00:27:51,172:lambd,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...,' , UPPER(TRIM(COALESCE(Payment::text))), ',' ,  , CURRENT_...
+                                                             ^
+
+2022-05-10 00:27:51,172:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...,' , UPPER(TRIM(COALESCE(Payment::text))), ',' ,  , CURRENT_...
+                                                             ^
+
+2022-05-10 10:31:15,422:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:31:15,423:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:31:16,239:lambd,DEBUG:I created the Database yellow_payment
+2022-05-10 10:31:16,325:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 10:31:16,332:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:31:16,332:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:31:16,343:lambd,DEBUG:I created the HUB_payment
+2022-05-10 10:31:16,354:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:31:16,514:lambd,DEBUG:I created the Stagingrate
+2022-05-10 10:31:16,522:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:31:16,522:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:31:16,531:lambd,DEBUG:I created the HUB_rate
+2022-05-10 10:31:16,541:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:31:17,303:lambd,DEBUG:I created the Stagingtripdata
+2022-05-10 10:31:18,149:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:31:18,149:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:31:18,160:lambd,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...',' , UPPER(TRIM(COALESCE(Vendor::text))), ',' ,  , CURRENT_...
+                                                             ^
+
+2022-05-10 10:31:18,161:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « , »
+LINE 1: ...',' , UPPER(TRIM(COALESCE(Vendor::text))), ',' ,  , CURRENT_...
+                                                             ^
+
+2022-05-10 10:37:57,919:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:37:57,919:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:37:58,018:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:37:58,019:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:37:58,025:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:37:58,075:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:37:58,076:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:37:58,079:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:37:59,013:lambd,ERROR:ERROR:while scanning a simple key
+  in "object_config2.yml", line 46, column 10
+could not find expected ':'
+  in "object_config2.yml", line 47, column 10
+2022-05-10 10:37:59,013:Tp_taxi_jaune,ERROR:ERROR:while scanning a simple key
+  in "object_config2.yml", line 46, column 10
+could not find expected ':'
+  in "object_config2.yml", line 47, column 10
+2022-05-10 10:39:21,642:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:39:21,643:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:39:21,741:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:39:21,742:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:39:21,746:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:39:21,799:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:39:21,800:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:39:21,805:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:39:22,777:lambd,ERROR:ERROR:while scanning a simple key
+  in "object_config2.yml", line 46, column 10
+could not find expected ':'
+  in "object_config2.yml", line 47, column 10
+2022-05-10 10:39:22,778:Tp_taxi_jaune,ERROR:ERROR:while scanning a simple key
+  in "object_config2.yml", line 46, column 10
+could not find expected ':'
+  in "object_config2.yml", line 47, column 10
+2022-05-10 10:40:16,328:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:40:16,328:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:40:16,427:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:40:16,428:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:40:16,432:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:40:16,606:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:40:16,607:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:40:16,611:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:40:17,476:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:40:17,477:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:40:17,481:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:40:17,481:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:46:11,086:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:46:11,086:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:46:11,188:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:46:11,189:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:46:11,193:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:46:11,249:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:46:11,250:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:46:11,253:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:46:12,182:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:46:12,183:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:46:12,188:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:46:12,188:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:49:30,894:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:49:30,894:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:49:30,990:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:49:30,991:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:49:30,995:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:49:31,046:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:49:31,047:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:49:31,051:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:49:31,940:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:49:31,941:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:49:31,943:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:49:31,945:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:55:40,691:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:55:40,692:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:55:40,788:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:55:40,788:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:55:40,793:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:55:40,844:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:55:40,844:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:55:40,848:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:55:41,752:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:55:41,752:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:55:41,757:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:55:41,757:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:56:31,712:lambd,DEBUG:Started reading my Repository
+2022-05-10 10:56:31,713:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 10:56:31,809:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:56:31,809:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:56:31,814:lambd,DEBUG:I created the SAT_payment
+2022-05-10 10:56:31,866:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:56:31,867:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 10:56:31,872:lambd,DEBUG:I created the SAT_rate
+2022-05-10 10:56:32,805:lambd,DEBUG:Started reading my Objects
+2022-05-10 10:56:32,805:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 10:56:32,808:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 10:56:32,809:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 11:00:08,004:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:00:08,004:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:00:08,099:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:00:08,099:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:00:08,104:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:00:08,158:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:00:08,159:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:00:08,163:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:00:09,082:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:00:09,083:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:00:09,086:lambd,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 11:00:09,087:Tp_taxi_jaune,ERROR:ERROR:can only concatenate str (not "list") to str
+2022-05-10 11:02:41,843:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:02:41,843:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:02:41,942:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:02:41,943:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:02:41,948:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:02:42,003:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:02:42,005:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:02:42,011:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:02:42,933:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:02:42,934:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:02:42,995:lambd,DEBUG:I created the Stagingvendor
+2022-05-10 11:02:43,001:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:02:43,002:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:02:43,009:lambd,DEBUG:I created the HUB_vendor
+2022-05-10 11:02:43,018:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:02:43,072:lambd,DEBUG:I created the Stagingzone
+2022-05-10 11:02:43,080:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:02:43,080:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:02:43,084:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:08:32,236:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:08:32,236:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:08:32,337:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:08:32,337:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:08:32,341:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:08:32,400:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:08:32,401:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:08:32,405:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:08:33,349:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:08:33,350:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:08:33,422:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:08:33,422:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:08:33,427:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:08:33,484:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:08:33,485:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:08:33,489:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:23:24,808:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:23:24,808:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:23:24,906:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:23:24,907:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:23:24,911:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:23:24,975:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:23:24,976:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:23:24,980:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:23:25,938:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:23:25,939:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:23:25,997:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:23:25,997:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:23:26,001:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:23:26,053:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:23:26,053:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:23:26,058:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:34:54,564:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:34:54,565:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:34:54,660:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:34:54,660:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:34:54,665:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:34:54,721:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:34:54,722:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:34:54,726:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:34:55,644:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:34:55,644:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:34:55,705:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:34:55,706:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:34:55,710:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:34:55,762:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:34:55,762:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:34:55,768:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:36:36,827:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:36:36,827:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:36:36,922:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:36:36,923:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:36:36,927:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:36:36,977:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:36:36,978:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:36:36,982:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:36:37,861:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:36:37,862:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:36:37,927:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:36:37,928:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:36:37,932:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:36:37,984:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:36:37,985:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:36:37,991:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 11:41:00,493:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:41:00,494:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:41:01,190:lambd,DEBUG:I created the Database yellow_payment
+2022-05-10 11:41:01,272:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 11:41:01,279:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:41:01,279:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:41:01,290:lambd,DEBUG:I created the HUB_payment
+2022-05-10 11:41:01,305:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:41:01,369:lambd,DEBUG:I created the Stagingrate
+2022-05-10 11:41:01,376:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:41:01,377:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:41:01,383:lambd,DEBUG:I created the HUB_rate
+2022-05-10 11:41:01,394:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:41:02,101:lambd,DEBUG:I created the Stagingtripdata
+2022-05-10 11:41:02,968:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:41:02,969:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:41:02,982:lambd,ERROR:ERROR:ERREUR:  la colonne « paymentid » n'existe pas
+LINE 1: ...(PULocationID::text))), ',' , UPPER(TRIM(COALESCE(Paymentid:...
+                                                             ^
+
+2022-05-10 11:41:02,982:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la colonne « paymentid » n'existe pas
+LINE 1: ...(PULocationID::text))), ',' , UPPER(TRIM(COALESCE(Paymentid:...
+                                                             ^
+
+2022-05-10 11:43:20,848:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:43:20,849:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:43:20,943:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:43:20,943:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:43:20,947:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:43:20,998:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:43:20,998:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:43:21,004:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:43:21,925:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:43:21,926:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:43:21,932:lambd,ERROR:ERROR:ERREUR:  INSERT a plus d'expressions que les colonnes cibles
+LINE 1: ...(concat(BTRIM(LOWER(Ratecodeid::text)))) AS UUID),CAST(MD5(c...
+                                                             ^
+
+2022-05-10 11:43:21,932:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  INSERT a plus d'expressions que les colonnes cibles
+LINE 1: ...(concat(BTRIM(LOWER(Ratecodeid::text)))) AS UUID),CAST(MD5(c...
+                                                             ^
+
+2022-05-10 11:44:20,280:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:44:20,280:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:44:20,377:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:44:20,378:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:44:20,383:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:44:20,556:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:44:20,557:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:44:20,562:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:44:21,467:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:44:21,467:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:44:36,767:lambd,ERROR:ERROR:ERREUR:  le modificateur de type n'est pas autorisé pour le type « float4 »
+LINE 1: ...tpep_pickup_datetime timestamp(10), Trip_distance float4(10)...
+                                                             ^
+
+2022-05-10 11:44:36,768:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  le modificateur de type n'est pas autorisé pour le type « float4 »
+LINE 1: ...tpep_pickup_datetime timestamp(10), Trip_distance float4(10)...
+                                                             ^
+
+2022-05-10 11:47:59,041:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:47:59,041:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:47:59,139:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:47:59,139:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:47:59,144:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:47:59,208:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:47:59,209:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:47:59,215:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:48:00,141:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:48:00,141:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:48:20,416:lambd,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « - »
+LINE 1: ...)) AS UUID ) FROM staging.STG_yellow_tripdata_2020-05.csv st...
+                                                             ^
+
+2022-05-10 11:48:20,417:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « - »
+LINE 1: ...)) AS UUID ) FROM staging.STG_yellow_tripdata_2020-05.csv st...
+                                                             ^
+
+2022-05-10 11:48:58,875:lambd,DEBUG:Started reading my Repository
+2022-05-10 11:48:58,876:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 11:48:58,976:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:48:58,978:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:48:58,982:lambd,DEBUG:I created the SAT_payment
+2022-05-10 11:48:59,039:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:48:59,040:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 11:48:59,043:lambd,DEBUG:I created the SAT_rate
+2022-05-10 11:49:00,000:lambd,DEBUG:Started reading my Objects
+2022-05-10 11:49:00,001:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 11:49:27,330:lambd,ERROR:ERROR:ERREUR:  la relation « staging.stg_sat_trippaymentlocationvendor » n'existe pas
+LINE 1: ...(COALESCE(Trip_distance::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-10 11:49:27,330:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  la relation « staging.stg_sat_trippaymentlocationvendor » n'existe pas
+LINE 1: ...(COALESCE(Trip_distance::text))))) AS UUID ) FROM staging.ST...
+                                                             ^
+
+2022-05-10 12:01:57,492:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:01:57,492:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:01:57,594:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:01:57,594:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:01:57,599:lambd,DEBUG:I created the SAT_payment
+2022-05-10 12:01:57,681:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:01:57,682:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:01:57,688:lambd,DEBUG:I created the SAT_rate
+2022-05-10 12:01:58,795:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:01:58,795:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 12:02:29,837:lambd,ERROR:ERROR:DvEngine.insertiORupdateEntity() takes 2 positional arguments but 3 were given
+2022-05-10 12:02:29,837:Tp_taxi_jaune,ERROR:ERROR:DvEngine.insertiORupdateEntity() takes 2 positional arguments but 3 were given
+2022-05-10 12:03:22,228:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:03:22,229:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:03:22,330:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:03:22,331:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:03:22,335:lambd,DEBUG:I created the SAT_payment
+2022-05-10 12:03:22,512:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:03:22,513:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:03:22,517:lambd,DEBUG:I created the SAT_rate
+2022-05-10 12:03:23,427:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:03:23,428:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 12:03:59,617:lambd,ERROR:ERROR:DvEngine.insertiORupdateEntity() takes 2 positional arguments but 3 were given
+2022-05-10 12:03:59,618:Tp_taxi_jaune,ERROR:ERROR:DvEngine.insertiORupdateEntity() takes 2 positional arguments but 3 were given
+2022-05-10 12:05:17,226:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:05:17,227:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:05:18,057:lambd,DEBUG:I created the Database yellow_payment
+2022-05-10 12:05:18,137:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 12:05:18,145:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:05:18,145:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:05:18,158:lambd,DEBUG:I created the HUB_payment
+2022-05-10 12:05:18,171:lambd,DEBUG:I created the SAT_payment
+2022-05-10 12:05:18,229:lambd,DEBUG:I created the Stagingrate
+2022-05-10 12:05:18,235:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:05:18,236:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:05:18,242:lambd,DEBUG:I created the HUB_rate
+2022-05-10 12:05:18,251:lambd,DEBUG:I created the SAT_rate
+2022-05-10 12:05:18,962:lambd,DEBUG:I created the Stagingtripdata
+2022-05-10 12:05:19,796:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:05:19,797:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 12:05:24,818:lambd,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « - »
+LINE 1: ...)) AS UUID ) FROM staging.STG_yellow_tripdata_2020-05.csv st...
+                                                             ^
+
+2022-05-10 12:05:24,818:Tp_taxi_jaune,ERROR:ERROR:ERREUR:  erreur de syntaxe sur ou près de « - »
+LINE 1: ...)) AS UUID ) FROM staging.STG_yellow_tripdata_2020-05.csv st...
+                                                             ^
+
+2022-05-10 12:08:14,040:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:08:14,041:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:08:14,133:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:08:14,134:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:08:14,135:lambd,ERROR:ERROR:list index out of range
+2022-05-10 12:08:14,136:Tp_taxi_jaune,ERROR:ERROR:list index out of range
+2022-05-10 12:10:04,995:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:10:04,996:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:10:05,090:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:10:05,091:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:10:05,092:lambd,ERROR:ERROR:list index out of range
+2022-05-10 12:10:05,093:Tp_taxi_jaune,ERROR:ERROR:list index out of range
+2022-05-10 12:11:24,600:lambd,DEBUG:Started reading my Repository
+2022-05-10 12:11:24,601:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 12:11:24,701:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:11:24,702:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:11:24,705:lambd,DEBUG:I created the SAT_payment
+2022-05-10 12:11:24,760:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:11:24,761:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:11:24,765:lambd,DEBUG:I created the SAT_rate
+2022-05-10 12:11:25,691:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:11:25,692:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 12:11:47,963:lambd,DEBUG:I created the Stagingvendor
+2022-05-10 12:11:47,972:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:11:47,972:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:11:47,979:lambd,DEBUG:I created the HUB_vendor
+2022-05-10 12:11:47,989:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 12:11:48,048:lambd,DEBUG:I created the Stagingzone
+2022-05-10 12:11:48,062:lambd,DEBUG:Started reading my Objects
+2022-05-10 12:11:48,063:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 12:11:48,069:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 14:11:36,870:lambd,DEBUG:Started reading my Repository
+2022-05-10 14:11:36,870:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 14:11:36,968:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:11:36,968:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:11:36,976:lambd,DEBUG:I created the SAT_payment
+2022-05-10 14:11:37,028:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:11:37,029:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:11:37,034:lambd,DEBUG:I created the SAT_rate
+2022-05-10 14:11:37,883:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:11:37,884:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 14:12:18,384:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:12:18,384:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:12:18,391:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 14:12:18,446:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:12:18,447:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:12:18,452:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 14:26:49,721:lambd,DEBUG:Started reading my Repository
+2022-05-10 14:26:49,721:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 14:26:50,470:lambd,DEBUG:I created the Database yellow_payment
+2022-05-10 14:26:50,552:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 14:26:50,558:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:26:50,559:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:26:50,570:lambd,DEBUG:I created the HUB_payment
+2022-05-10 14:26:50,586:lambd,DEBUG:I created the SAT_payment
+2022-05-10 14:26:50,644:lambd,DEBUG:I created the Stagingrate
+2022-05-10 14:26:50,650:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:26:50,651:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:26:50,658:lambd,DEBUG:I created the HUB_rate
+2022-05-10 14:26:50,670:lambd,DEBUG:I created the SAT_rate
+2022-05-10 14:26:51,424:lambd,DEBUG:I created the Stagingtripdata
+2022-05-10 14:26:52,305:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:26:52,306:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 14:27:06,381:lambd,DEBUG:I created the Stagingvendor
+2022-05-10 14:27:06,393:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:27:06,394:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:27:06,403:lambd,DEBUG:I created the HUB_vendor
+2022-05-10 14:27:06,414:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 14:27:06,469:lambd,DEBUG:I created the Stagingzone
+2022-05-10 14:27:06,476:lambd,DEBUG:Started reading my Objects
+2022-05-10 14:27:06,476:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 14:27:06,482:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 15:05:33,191:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:05:33,192:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:05:33,291:lambd,ERROR:ERROR:[Errno 2] No such file or directory: 'object_payment_config.yml'
+2022-05-10 15:05:33,292:startProcess,ERROR:ERROR:[Errno 2] No such file or directory: 'object_payment_config.yml'
+2022-05-10 15:09:45,020:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:09:45,021:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:09:45,119:lambd,ERROR:ERROR:[Errno 2] No such file or directory: 'rate_bk.yml'
+2022-05-10 15:09:45,121:startProcess,ERROR:ERROR:[Errno 2] No such file or directory: 'rate_bk.yml'
+2022-05-10 15:10:49,410:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:10:49,410:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:10:50,348:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:10:50,349:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 15:11:17,612:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:11:17,613:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:11:17,624:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 15:11:17,686:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:11:17,687:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:11:17,700:lambd,DEBUG:I created the HUB_Zone
+2022-05-10 15:11:17,737:lambd,DEBUG:I created the SAT_Zone
+2022-05-10 15:12:09,955:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:12:09,955:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:12:10,678:startProcess,ERROR:ERROR:list index out of range
+2022-05-10 15:17:18,036:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:17:18,037:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:17:18,167:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 15:17:19,272:lambd,ERROR:ERROR:ERREUR:  n'a pas pu ouvrir le fichier « C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\wrk\workspace\yellow_payment_info.csv » pour une lecture : Permission denied
+HINT:  COPY TO indique au serveur PostgreSQL de lire un fichier. Vous pourriez vouloir utiliser la fonctionnalité \copy de psql pour lire en local.
+
+2022-05-10 15:17:19,273:startProcess,ERROR:ERROR:ERREUR:  n'a pas pu ouvrir le fichier « C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\wrk\workspace\yellow_payment_info.csv » pour une lecture : Permission denied
+HINT:  COPY TO indique au serveur PostgreSQL de lire un fichier. Vous pourriez vouloir utiliser la fonctionnalité \copy de psql pour lire en local.
+
+2022-05-10 15:20:53,822:lambd,DEBUG:Started reading my Repository
+2022-05-10 15:20:53,823:lambd,DEBUG:Let's establish a connection with the DbServer
+2022-05-10 15:20:54,571:lambd,DEBUG:I created the Database yellow_payment
+2022-05-10 15:20:54,653:lambd,DEBUG:I created the Stagingpayment
+2022-05-10 15:20:54,660:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:20:54,660:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:20:54,676:lambd,DEBUG:I created the HUB_payment
+2022-05-10 15:20:54,695:lambd,DEBUG:I created the SAT_payment
+2022-05-10 15:20:54,758:lambd,DEBUG:I created the Stagingrate
+2022-05-10 15:20:54,766:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:20:54,767:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:20:54,773:lambd,DEBUG:I created the HUB_rate
+2022-05-10 15:20:54,791:lambd,DEBUG:I created the SAT_rate
+2022-05-10 15:20:55,616:lambd,DEBUG:I created the Stagingtripdata
+2022-05-10 15:20:56,500:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:20:56,501:lambd,DEBUG:I found 0 HUB, 0 Satellite
+2022-05-10 15:21:10,595:lambd,DEBUG:I created the Stagingvendor
+2022-05-10 15:21:10,605:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:21:10,606:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:21:10,613:lambd,DEBUG:I created the HUB_vendor
+2022-05-10 15:21:10,633:lambd,DEBUG:I created the SAT_vendor
+2022-05-10 15:21:10,698:lambd,DEBUG:I created the Stagingzone
+2022-05-10 15:21:10,707:lambd,DEBUG:Started reading my Objects
+2022-05-10 15:21:10,708:lambd,DEBUG:I found 1 HUB, 1 Satellite
+2022-05-10 15:21:10,715:lambd,DEBUG:I created the HUB_Zone
+2022-05-10 15:21:10,747:lambd,DEBUG:I created the SAT_Zone

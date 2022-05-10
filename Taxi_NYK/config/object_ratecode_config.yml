@@ -1,0 +1,13 @@
+DevEntities:
+ - !DevEntity
+    name: rate
+    business_key : 
+       !include config/rate_bk.yml    
+    fields: 
+       RatecodeID:
+            type: int4
+            taille: 10
+       Ratecodename:
+            type: Char
+            taille: 50
+Links:

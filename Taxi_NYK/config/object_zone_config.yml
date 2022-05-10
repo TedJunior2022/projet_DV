@@ -1,0 +1,20 @@
+DevEntities:
+ - !DevEntity
+    name: Zone
+    business_key:
+         - LocationID
+    fields: 
+        LocationID:
+            type: int4
+            taille: 10    
+        Borough:
+            type: Char
+            taille: 100
+        Zone:
+            type: Char
+            taille: 100
+        Service_Zone:
+            type: Char
+            taille: 100
+
+Links:

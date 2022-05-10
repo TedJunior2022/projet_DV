@@ -1,0 +1,30 @@
+DevEntities:
+
+Links:
+  - !Link
+    name: TripPaymentLocationVendor
+    member:
+         - Hub_Payment
+         - Hub_Zone
+         - Hub_Rate
+         - Hub_Vendor
+    fields:
+         Trip_distance:
+            type: float4
+            taille: 10
+         tpep_pickup_datetime:
+            type: timestamp
+            taille: 10
+         tpep_dropoff_datetime:
+            type: timestamp
+            taille: 10
+         passenger_count:
+            type: int4
+            taille: 10
+    business_key: 
+         - Payment_type
+         - PULocationID
+         - Ratecodeid
+         - Vendorid
+         
+          

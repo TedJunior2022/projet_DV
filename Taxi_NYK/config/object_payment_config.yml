@@ -1,0 +1,13 @@
+DevEntities: 
+  - !DevEntity
+    name: payment
+    business_key:
+       !include config/payment_bk.yml
+    fields: 
+        Payment_type:
+            type: char
+            taille: 50
+        PaymentID:
+            type: int4
+            taille: 10
+Links:

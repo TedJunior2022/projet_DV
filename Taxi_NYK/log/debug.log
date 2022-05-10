@@ -1,0 +1,9 @@
+2022-04-07 13:47:36,657:lambd,DEBUG:Started reading my Repository
+2022-04-07 13:47:36,682:lambd,DEBUG:I found 3 HUB, 3 Satellite, 1 Link
+2022-04-07 13:47:36,687:lambd,DEBUG:Let's establish a connection with the the DbServer
+2022-04-07 13:47:37,507:lambd,DEBUG:I created the Database yellow_tripdata
+2022-04-07 14:13:01,880:Tp_taxi_jaune,ERROR:ERROR:name 'loger' is not defined
+2022-04-07 14:13:17,688:Tp_taxi_jaune,DEBUG:I insert 3 HUB, 3 Satellite, 1 Link
+2022-04-07 14:13:17,692:Tp_taxi_jaune,ERROR:ERROR:Lambda.__init__() takes 3 positional arguments but 4 were given
+2022-04-07 14:14:04,482:Tp_taxi_jaune,DEBUG:I insert 3 HUB, 3 Satellite, 1 Link
+2022-04-07 14:22:21,780:Tp_taxi_jaune,DEBUG:I insert 3 HUB, 3 Satellite, 1 Link
