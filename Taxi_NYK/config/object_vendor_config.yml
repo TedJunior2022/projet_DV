@@ -8,7 +8,7 @@ DevEntities:
             type: int4
             taille: 10
        Vendorname:
-            type: Char
+            type: Varchar
             taille: 50
 
 Links:

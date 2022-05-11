@@ -8,13 +8,13 @@ DevEntities:
             type: int4
             taille: 10    
         Borough:
-            type: Char
+            type: varchar
             taille: 100
         Zone:
-            type: Char
+            type: Varchar
             taille: 100
         Service_Zone:
-            type: Char
+            type: Varchar
             taille: 100
 
 Links:

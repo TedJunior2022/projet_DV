@@ -1,6 +1,6 @@
 Files:
 - !File
-    regex: .*_tripdata_.*\.csv$
+    regex: .*_trip_.*\.csv$
     file_name: config/object_tripdata_config.yml
       
 - !File

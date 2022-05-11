@@ -5,7 +5,7 @@ DevEntities:
        !include config/payment_bk.yml
     fields: 
         Payment_type:
-            type: char
+            type: Varchar
             taille: 50
         PaymentID:
             type: int4

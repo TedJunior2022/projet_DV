@@ -10,7 +10,6 @@ class Satellite(DevEntity):
 
     
     def get_name(self):
-        print("getter method called")
         return self.name
        
      # a setter function
@@ -20,7 +19,6 @@ class Satellite(DevEntity):
     
 
     def get_business_key(self):
-        print("getter method called")
         return self.business_key
        
      # a setter function
@@ -29,7 +27,6 @@ class Satellite(DevEntity):
         self.business_key = business_key
 
     def get_fields(self):
-        print("getter method called")
         return self.fields
        
      # a setter function

@@ -25,12 +25,8 @@ class DvEngine:
                       ' UUID, ' +entity.name.removeprefix('HUB_')+'business_key VARCHAR(100), '
             end = 'load_date TIMESTAMP, source VARCHAR(100), PRIMARY KEY (' + entity.name.removeprefix('HUB_') + 'HashedKey))'
             final = ''.join((begin,end))
-            print('hello')
-            print(final)
             return final
         else:
-            print(entity.name)
-            print(file_name)
             begin = 'create table ' +schema_name+'.'+entity.name+' ( ' + entity.name.removeprefix('SAT_') + 'HashedKey' + \
                       ' UUID,'
             end = ''
@@ -41,7 +37,6 @@ class DvEngine:
                 end = body + end 
             final = 'load_date TIMESTAMP, source VARCHAR(100), extract_date TIMESTAMP, end_date TIMESTAMP, Hash_diff UUID, PRIMARY KEY (' + entity.name.removeprefix('SAT_') + 'HashedKey, load_date))'
             final = begin + end + final
-            print(final)
             return final 
         
     def getSqlQueryCreateDevEntity2(self, schema_name, file_name):
@@ -51,8 +46,6 @@ class DvEngine:
                       ' UUID, ' +entity.name.removeprefix('HUB_')+'business_key VARCHAR(100), '
             end = 'load_date TIMESTAMP, source VARCHAR(100), PRIMARY KEY (' + entity.name.removeprefix('HUB_') + 'HashedKey))'
             final = ''.join((begin,end))
-            print('hello')
-            print(final)
             return final
         else:
             print(entity.name)
@@ -67,7 +60,6 @@ class DvEngine:
                 end = body + end 
             final = 'load_date TIMESTAMP, source VARCHAR(100), extract_date TIMESTAMP, end_date TIMESTAMP, Hash_diff UUID, PRIMARY KEY (' + entity.name.removeprefix('SAT_') + 'HashedKey, load_date))'
             final = begin + end + final
-            print(final)
             return final 
     
     def getSqlQueryCreateLink(self, entities, schema_name):
@@ -86,7 +78,6 @@ class DvEngine:
                         ' REFERENCES '+ schema_name+'.HUB_'+ m +'('+ m + 'HashedKey'+')'
            end = end + body
         final = final + end + ')'
-        print(final)
         return final
         
 
@@ -97,13 +88,11 @@ class DvEngine:
         begin = 'CREATE TABLE ' +schema_name+'.STG_' + suffix
         end =''
         for col in columns :
-            print(col)
             body = col +' TEXT, '
             end = end + body
            
         request = ' ( '.join((begin, end))
         request = self.rreplace(request, ',', ')')
-        print(request)
         return request
 
     def createStaging(self):
@@ -120,7 +109,6 @@ class DvEngine:
         return request
 
     def insertiORupdateEntity(self, file_name):
-        suffix = file_name
         entity = self.DevEntity
         if type(entity).__name__ == 'Hub':
             begin = 'INSERT INTO raw_dv.'+ entity.name + ' SELECT CAST(MD5(concat('
@@ -130,18 +118,19 @@ class DvEngine:
                 end = body + end
                 
             end = self.rreplace(end,', \',\' , ','')
-            request = begin + end+')) AS UUID), concat( ' + end +  '), CURRENT_DATE, \'CSV\' FROM staging.STG_' + suffix + ' ON CONFLICT DO NOTHING'
-            print(request)
+            request = begin + end+')) AS UUID), concat( ' + end +  '), CURRENT_DATE, \'CSV\' FROM staging.STG_' + file_name + ' ON CONFLICT DO NOTHING'
             return request
 
         elif type(entity).__name__ == "Satellite":
-            print(entity.name)
+            print("entity name> ",entity.name)
             begin = 'INSERT INTO raw_dv.' +entity.name+' SELECT CAST(MD5(concat('
             end =''
             first = ''
             for bk in entity.business_key:
                 body = 'UPPER(TRIM(COALESCE('+bk + '::text))), \',\' , '
                 first = body + first
+                print("first> ")
+                print(first)
                 
             first = self.rreplace(first,', \',\' , ',')) AS UUID), ')
             end =''
@@ -150,6 +139,8 @@ class DvEngine:
                 body = 'COALESCE(stg.'+i +f'::{type_field}) ,'
                 end = body + end
             end = self.rreplace(end,', \',\' , ','')
+            print("end> ")
+            print(end)
 
             request = begin + first + end+' CURRENT_DATE, \'CSV\', CURRENT_DATE, NULL, CAST(MD5(concat('
             last =''
@@ -157,7 +148,7 @@ class DvEngine:
                 body = 'UPPER(TRIM(COALESCE('+field + '::text))), \',\' , '
                 last = body + last
             last = self.rreplace(last,', \',\' , ','')
-            request = request + last + ')) AS UUID ) FROM staging.STG_' + suffix + ' stg WHERE NOT EXISTS (' + \
+            request = request + last + ')) AS UUID ) FROM staging.STG_' + file_name + ' stg WHERE NOT EXISTS (' + \
                       'SELECT \'1\' FROM raw_dv.'+entity.name+ ' sat ' + \
                       'WHERE sat.hash_diff = CAST(MD5(concat('
             end =''
@@ -173,6 +164,7 @@ class DvEngine:
             last = self.rreplace(last,', \',\' , ',')) AS UUID)')
 
             final = last + ' = sat.'+entity.name.removeprefix('SAT_')+'hashedkey) ON CONFLICT DO NOTHING'
+            print("request + final>>")
             print(request + final)
             return request + final
 
@@ -239,7 +231,6 @@ class DvEngine:
 
         final = final + ' PRIMARY KEY (' + link.name.removeprefix('LINK_')+ 'HashedKey) ' 
         final = final + ')'
-        print(final)
         return final
 
     
@@ -265,7 +256,6 @@ class DvEngine:
             end2 = end2 + body
         end2 = self.rreplace(end2, ',', ' FROM')
         request = request + end2 +' staging.stg_' +suffix+ ' ON CONFLICT DO NOTHING'
-        print(request)   
         return request
 
     def rreplace(self, s, old, new):
@@ -273,5 +263,4 @@ class DvEngine:
 
     def getColumnsName(self, path):
         file = pandas.read_csv(path, dtype='unicode')
-        print(file.columns)
         return file.columns

@@ -39,7 +39,6 @@ class LocalLocation(Location):
         links = []
         if data["DevEntities"] != None: 
             list_DvEntity = data["DevEntities"]
-            print(data)
             for o in list_DvEntity:
                 name_hub = "HUB_"+o.name
                 name_sat = "SAT_"+o.name
@@ -87,7 +86,6 @@ class LocalLocation(Location):
         data = yaml.load(open(location, "rb"), Loader=self.get_Objectloader())
         files = []
         list_files = data["Files"]
-        print(data)
         for o in list_files:
             regex = o.regex
             file_name = o.file_name

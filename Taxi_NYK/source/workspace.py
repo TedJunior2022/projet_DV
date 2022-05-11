@@ -7,7 +7,6 @@ class Workspace:
 
     
     def get_repository(self):
-        print("getter method called")
         return self.repository
        
      # a setter function
@@ -16,7 +15,6 @@ class Workspace:
         self.repository = repository
 
     def get_fileNames(self):
-        print("getter method called")
         return self.fileNames
        
      # a setter function

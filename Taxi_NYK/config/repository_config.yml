@@ -1,10 +1,10 @@
 Workspaces:
  - !Workspace
-    repository: C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\wrk\workspace
+    repository: C:\Users\SLABIAD\vsCode_workspace\projet_DV\Taxi_NYK\wrk\workspace
 Others:
     log_format: text
-    archive_repo: C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\wrk\archive
-    error_repo: C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\wrk\error
-    log_repo: C:\Users\TJSAMBADZUGUIA\Desktop\Taxi_NYK\log
+    archive_repo: C:\Users\SLABIAD\vsCode_workspace\projet_DV\Taxi_NYK\wrk\archive
+    error_repo: C:\Users\SLABIAD\vsCode_workspace\projet_DV\Taxi_NYK\wrk\error
+    log_repo: C:\Users\SLABIAD\vsCode_workspace\projet_DV\Taxi_NYK\log
          
 
